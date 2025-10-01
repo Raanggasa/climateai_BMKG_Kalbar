@@ -93,6 +93,9 @@ collection_status = DataCollectionStatus(
     last_error=None
 )
 
+# Initialize ML model manager
+model_manager = WeatherModelManager()
+
 # Data collection service
 async def fetch_weather_data():
     """Fetch data from weather API"""
