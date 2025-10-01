@@ -15,6 +15,7 @@ import numpy as np
 import pandas as pd
 from collections import defaultdict
 import json
+from ml_models import WeatherModelManager
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
